@@ -9,11 +9,7 @@ resultlis<-list()
 
 for (i in 1:length(filenames)) {  
   
-  # populate the list with previously matched of loci
-  # 
-  #use col 2 for peak_pos.txt files if want to plot fit
   resultlis[[i]]<-c(0, your_input[[i]][c(1:3),2])
-  #resultlis[[i]]<-h1[[i]][,3]
   
 }
 
