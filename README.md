@@ -1,4 +1,4 @@
-# MNase_seq
+# MNase-seq analysis for Choi et al.
 bash and R code for MNase-seq analysis performed in Choi et al. (2018)
 
 numap.sh:
