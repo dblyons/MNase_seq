@@ -1,5 +1,6 @@
 # MNase-seq analysis for Choi et al.
-bash and R code for MNase-seq analysis performed in Choi et al. (2018) 
+bash and R code for MNase-seq analysis performed in Choi et al. (2018)  
+<br/>  
 <br/>
 
 numap.sh is just a wrapper of initial numap scripts as provided at http://www-hsc.usc.edu/~valouev/NuMap/README.txt
