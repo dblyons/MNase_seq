@@ -5,7 +5,13 @@ numap.sh:
 
 	wrapper of numap scripts, as provided at http://www-hsc.usc.edu/~valouev/NuMap/README.txt
 
+to generate phasograms from output of wrapper above, use:
 
+	for i in ./*bg; do phasogram_of_sites positions_file=./$i output_file=./$i.phaso max_dist=3000 & done
+	
+then estimate peaks on phasogram output:
+
+	for i in ./*phaso; do estimate_peaks dist_file=./$i output_file=./${i%%}.phasogram.smoothed bw=30 field=1 & done
 
 calculate_NRL.R:
 
