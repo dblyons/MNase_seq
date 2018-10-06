@@ -1,5 +1,5 @@
 # MNase-seq analysis for Choi et al.
-<h5>bash and R code for MNase-seq analysis performed in Choi et al. (2018)  </h5>
+<h3>bash and R code for MNase-seq analysis performed in Choi et al. (2018)  </h3>
 <br/>  
 
 <h4>numap.sh</h4> is just a wrapper of initial numap scripts as provided at http://www-hsc.usc.edu/~valouev/NuMap/README.txt
