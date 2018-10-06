@@ -15,10 +15,10 @@ then estimate peaks on phasogram output:
 then import into R with the following scripts:
 <br/>
 
-<h4>calculate_NRL.R:</h4>    <br/>generates a table of NRL estimates from the linear regression fit of the distances between dyad peaks generated in with numap
+<h4>calculate_NRL.R:</h4>  generates a table of NRL estimates from the linear regression fit of the distances between dyad peaks generated in with numap
 
 
-<h4>plot_linear_fit.R:</h4>  <br/>to visualize the regression line used in calculating the NRL
+<h4>plot_linear_fit.R:</h4>  to visualize the regression line used in calculating the NRL
 	
 
-<h4>plot_phasogram.R:</h4>  <br/>plot the histogram of dyad-to-dyad distances as a smoothed line
+<h4>plot_phasogram.R:</h4>  plot the histogram of dyad-to-dyad distances as a smoothed line
