@@ -2,7 +2,7 @@
 <h4>bash and R code for MNase-seq analysis performed in Choi et al. (2018)  </h4>
 <br/>  
 
-numap.sh is just a wrapper of initial numap scripts as provided at http://www-hsc.usc.edu/~valouev/NuMap/README.txt
+<h4>numap.sh</h4> is just a wrapper of initial numap scripts as provided at http://www-hsc.usc.edu/~valouev/NuMap/README.txt
 <br/>
 to generate phasograms from wrapper output above, one can use:
 
@@ -15,10 +15,10 @@ then estimate peaks on phasogram output:
 then import into R with the following scripts:
 <br/>
 
-calculate_NRL.R:    <br/>generates a table of NRL estimates from the linear regression fit of the distances between dyad peaks generated in with numap
+<h4>calculate_NRL.R:</h4>    <br/>generates a table of NRL estimates from the linear regression fit of the distances between dyad peaks generated in with numap
 
 
-plot_linear_fit.R:  <br/>to visualize the regression line used in calculating the NRL
+<h4>plot_linear_fit.R:</h4>  <br/>to visualize the regression line used in calculating the NRL
 	
 
-plot_phasogram.R:  <br/>plot the histogram of dyad-to-dyad distances as a smoothed line
+<h4>plot_phasogram.R:</h4>  <br/>plot the histogram of dyad-to-dyad distances as a smoothed line
