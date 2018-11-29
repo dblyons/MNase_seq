@@ -9,7 +9,7 @@ resultlis<-list()
 
 for (i in 1:length(filenames)) {  
 
-  resultlis[[i]]<-h1[[i]][,3]
+  resultlis[[i]]<-your_input[[i]][,3]
   
 }
 
