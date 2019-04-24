@@ -1,10 +1,11 @@
 # MNase-seq analysis for Choi et al.
 <h3>bash and R code for MNase-seq analysis performed in Choi et al. (2018)  </h3>
 <br/>  
+first run numap.sh
 
 <h4>numap.sh</h4> is just a wrapper of initial numap scripts as provided at http://www-hsc.usc.edu/~valouev/NuMap/README.txt
 <br/>
-to generate phasograms from wrapper output above, one can use:
+to generate phasograms from wrapper output above, I relabel my dyad_calls with ".bg" suffix, then for multiple samples use:
 
 	for i in ./*bg; do phasogram_of_sites positions_file=./$i output_file=./$i.phaso max_dist=3000 & done
 	
