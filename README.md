@@ -5,7 +5,11 @@ first run numap.sh
 
 <h4>numap.sh</h4> is just a wrapper of initial numap scripts as provided at http://www-hsc.usc.edu/~valouev/NuMap/README.txt
 <br/>
-to generate phasograms from wrapper output above, I relabel my dyad_calls with ".bg" suffix, then for multiple samples use:
+to generate phasograms from wrapper output above, I relabel my dyad_positions.txt something like "uniqueIdentifier1.bg" after passing through the following command
+	
+	sed '1d' dyad_positions.txt | perl -wnl -e '/^\d/ and print;' | awk '{print $1"\t"$2"\t"$3"\t"$4}' >  <uniqueIdentifier>.bg
+	
+then put them all together in a single directory and run:
 
 	for i in ./*bg; do phasogram_of_sites positions_file=./$i output_file=./$i.phaso max_dist=3000 & done
 	
