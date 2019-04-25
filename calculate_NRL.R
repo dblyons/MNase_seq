@@ -1,6 +1,7 @@
 #calculate NRL estimate
+#use your phasogram output directory
 
-filenames <- list.files("/path/to/your/numap/output/",
+filenames <- list.files("/path/to/your/numap/phaso_output/",
                         pattern=".peak_pos.txt$", full.names=TRUE)
 
 your_input <- lapply(filenames, read.table)
