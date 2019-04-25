@@ -1,9 +1,7 @@
 # MNase-seq analysis for Choi et al.
 <h3>bash and R code for MNase-seq analysis performed in Choi et al. (2018)  </h3>
 <br/>  
-first run numap.sh
-
-<h4>numap.sh</h4> is just a wrapper of initial numap scripts as provided at http://www-hsc.usc.edu/~valouev/NuMap/README.txt
+first run <h4>numap.sh<h4/> which is just a wrapper of initial numap scripts as provided at http://www-hsc.usc.edu/~valouev/NuMap/README.txt
 <br/>
 to generate phasograms from wrapper output above, I relabel my dyad_positions.txt something like "uniqueIdentifier1.bg" after passing through the following command
 	
