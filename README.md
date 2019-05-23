@@ -1,8 +1,11 @@
 # MNase-seq analysis for Choi et al.
 <h3>bash and R code for MNase-seq analysis performed in Choi et al. (2019)  </h3>
+<br/>
+isolate mapped mononucleosomal-sized fragments
+<br/>
 
 <br/>
-first run  <h4>numap.sh</h4> <br/>which is a wrapper of initial numap scripts as provided at <br/> http://www-hsc.usc.edu/~valouev/NuMap/README.txt<br/>
+then run  <h4>numap.sh</h4> <br/>which is a wrapper of initial numap scripts as provided at <br/> http://www-hsc.usc.edu/~valouev/NuMap/README.txt<br/>
 <br/>
 
 then run the following to remove non-nuclear genome data:<br/>
