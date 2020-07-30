@@ -5,7 +5,7 @@ isolate mapped mononucleosomal-sized fragments
 <br/>
 
 <br/>
-then run  <h4>numap.sh</h4> <br/>which is a wrapper of initial numap scripts as provided at <br/> http://www-hsc.usc.edu/~valouev/NuMap/README.txt<br/>
+then run  <h4>numap.sh</h4> <br/>which is a wrapper of initial numap scripts as provided at <br/> https://github.com/orphancode/NuMap<br/>
 <br/>
 
 then run the following to remove non-nuclear genome data:<br/>
