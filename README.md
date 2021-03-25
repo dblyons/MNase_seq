@@ -1,7 +1,12 @@
 # MNase-seq analysis for Choi et al.
 <h3>bash and R code for MNase-seq analysis performed in Choi et al. (2019)  </h3>
 <br/>
-isolate mapped mononucleosomal-sized fragments
+isolate mapped mononucleosomal-sized fragments from sam files
+<br/>
+e.g. for 120 to 180bp inclusive: </br>
+
+perl -wnla -e '(abs($F[8])>119 and abs($F[8])<181) and print;' your_sam_file
+
 <br/>
 
 <br/>
