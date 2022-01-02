@@ -1,5 +1,5 @@
 # MNase-seq analysis for Choi et al.
-<h3>bash and R code for MNase-seq analysis performed in [Choi, Lyons et al. (2020) ](https://www.cell.com/molecular-cell/pdf/S1097-2765(19)30789-0.pdf) </h3>
+<h3>bash and R code for MNase-seq analysis performed in Choi, Lyons et al. (2020) (https://www.cell.com/molecular-cell/pdf/S1097-2765(19)30789-0.pdf) </h3>
 <br/>
 isolate mapped mononucleosomal-sized fragments from sam files
 <br/>
